@@ -1,8 +1,10 @@
 import axios from "axios"
 import { ACCESS_TOKEN } from "./constants"
 
+const baseURL = "https://fmb-tiffin-details-app.onrender.com";
+
 const api = axios.create({
-    const baseURL = "https://fmb-tiffin-details-app.onrender.com";
+    baseURL : baseURL
 
 })
 
